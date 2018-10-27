@@ -1,11 +1,10 @@
 package sistema.de.emergencia.medica;
 
-/**
- *
- * @author FRANCO
- */
+import java.util.ArrayList;
+
 public class Afiliado extends Persona{
     private Integer numeroAfiliado;
+    private ArrayList<Persona> grupoFamiliar;
 
     public Afiliado(Integer numeroAfiliado, String Nombre, String apellido, Integer DNI, String sexo, int FechaNacimiento) {
         super(Nombre, apellido, DNI, sexo, FechaNacimiento);
@@ -19,4 +18,13 @@ public class Afiliado extends Persona{
     public void setNumeroAfiliado(Integer numeroAfiliado) {
         this.numeroAfiliado = numeroAfiliado;
     }   
+
+    public ArrayList<Persona> getGrupoFamiliar() {
+        return grupoFamiliar;
+    }
+
+    public void setGrupoFamiliar(ArrayList<Persona> grupoFamiliar) {
+        this.grupoFamiliar = grupoFamiliar;
+    }
+
 }
