@@ -3,11 +3,23 @@ package sistema.de.emergencia.medica;
 import java.util.ArrayList;
 
 public class GestionHospital {
-          private ArrayList<Persona> personas;
-          private ArrayList<Movil> moviles;
-
+          private ArrayList<Afiliado> afiliados;
+          private ArrayList<AsistenciaMedica> solicitudes;
+          
+          public GestionHospital(){
+              ArrayList<Afiliado> afiliados= new ArrayList<Afiliado>();
+          }
+          
+          public void altaAfiliado(Afiliado afiliado){
+              afiliados.add(afiliado);
+          }
+          
+          public void bajaAfiliado(Afiliado afiliado){
+              afiliados.remove(afiliado);
+          }
+          
           public Afiliado buscarAfiliado(Integer dni){
-              for(Persona i: personas){
+              for(Afiliado i: afiliados){
                   if(i instanceof Afiliado){
                       Afiliado a= (Afiliado)i;
                       if(a.getDNI()==dni){
@@ -19,7 +31,7 @@ public class GestionHospital {
           }
           
            public Afiliado buscarChofer(Integer dni){
-              for(Persona i: personas){
+              for(Afiliado i: afiliados){
                   if(i instanceof Afiliado){
                       Afiliado a= (Afiliado)i;
                       if(a.getDNI()==dni){
@@ -29,16 +41,5 @@ public class GestionHospital {
               }
           return null;
           }
-           
-          public Doctor buscarDoctor(Integer dni){
-              for(Persona i: personas){
-                  if(i instanceof Doctor){
-                      Doctor a= (Doctor)i;
-                      if(a.getDNI()==dni){
-                          return a;
-                      }
-                  }
-              }
-          return null;
-          } 
+
 }
