@@ -3,16 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Doctor.java</file>
             <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/GestionHospital.java</file>
             <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Enfermero.java</file>
+            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/GestionEmpleados.java</file>
+            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/ResultadoAsisMedica.java</file>
             <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Afiliado.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Chofer.java</file>
             <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Abono.java</file>
             <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/AsistenciaMedica.java</file>
             <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Movil.java</file>
             <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Administrativo.java</file>
             <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Empleado.java</file>
+            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/Persona.java</file>
+            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/sistema/de/emergencia/medica/SistemaEmergenciaMedica.java</file>
         </group>
     </open-files>
 </project-private>

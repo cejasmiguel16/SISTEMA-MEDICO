@@ -39,16 +39,18 @@ public class GestionEmpleados {
               moviles.remove(movil);
           }
           
-          public Doctor buscarDoctor(Integer dni){
+          public Doctor buscarDoctor(){
+              Doctor b = null;
               for(Empleado i: empleados){
                   if(i instanceof Doctor){
                       Doctor a= (Doctor)i;
-                      if(a.getDNI()==dni){
-                          return a;
+                      if(a.getDisponibilidad()==0){
+                            //DOCTOR ENCONTRADO
+                            b = a;
+                            break;
                       }
                   }
               }
-          return null;
+          return b;    
           }
-          
 }
