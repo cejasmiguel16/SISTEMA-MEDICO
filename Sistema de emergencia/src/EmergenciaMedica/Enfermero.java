@@ -1,5 +1,5 @@
 
-package sistema.de.emergencia.medica;
+package EmergenciaMedica;
 
 public class Enfermero extends Empleado{
     private Integer disponible;

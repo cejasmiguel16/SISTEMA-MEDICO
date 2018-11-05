@@ -1,8 +1,7 @@
-package sistema.de.emergencia.medica;
+package EmergenciaMedica;
 
 import java.time.Duration;
 import java.time.LocalDate;
-import java.time.Period;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 

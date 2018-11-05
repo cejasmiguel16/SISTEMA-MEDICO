@@ -1,5 +1,5 @@
 
-package sistema.de.emergencia.medica;
+package EmergenciaMedica;
 
 import java.time.LocalDate;
 
