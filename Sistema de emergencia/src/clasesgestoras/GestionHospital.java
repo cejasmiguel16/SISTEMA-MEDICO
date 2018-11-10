@@ -2,12 +2,19 @@ package clasesgestoras;
 
 import clasessimples.Afiliado;
 import clasessimples.AsistenciaMedica;
+import clasessimples.Chofer;
+import clasessimples.Doctor;
+import clasessimples.Empleado;
+import clasessimples.Enfermero;
+import clasessimples.Movil;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 
 public class GestionHospital {
+          private ArrayList<Empleado> empleados;
+          private ArrayList<Movil> moviles;
           private ArrayList<Afiliado> afiliados = new ArrayList<>();
           
           public GestionHospital(){
@@ -71,5 +78,53 @@ public class GestionHospital {
               // if(i instanceof Afiliado){
                //Afiliado a= (Afiliado)i;
               //}
+          }
+          
+          public void altaDoctor(Doctor doctor){
+              empleados.add(doctor);
+          } 
+          
+          public void altaEnfermero(Enfermero enfermero){
+              empleados.add(enfermero);
+          } 
+          
+          public void AltaMovil(Movil movil){
+              moviles.add(movil);
+          }
+          
+          public void altaChofer(Chofer chofer){
+              empleados.add(chofer);
+          }
+          
+          public void bajaChofer(Chofer chofer){
+              empleados.remove(chofer);
+          }
+          
+          
+          public void bajaDoctor(Doctor doctor){
+              empleados.remove(doctor);
+          }
+          
+          public void bajaEnfermero(Enfermero enfermero){
+              empleados.remove(enfermero);
+          }
+          
+          public void bajaMovil(Movil movil){
+              moviles.remove(movil);
+          }
+          
+          public Doctor buscarDoctor(Integer dni){
+              Doctor b = null;
+              for(Empleado i: empleados){
+                  if(i instanceof Doctor){
+                      Doctor a= (Doctor)i;
+                      if(a.getDNI()==dni){
+                            //DOCTOR ENCONTRADO
+                            b = a;
+                            break;
+                      }
+                  }
+              }
+          return b;    
           }
 }
