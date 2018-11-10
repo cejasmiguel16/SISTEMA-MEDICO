@@ -1,16 +1,17 @@
-package EmergenciaMedica;
+package clasesgestoras;
 
+import clasessimples.Afiliado;
+import clasessimples.AsistenciaMedica;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 
 public class GestionHospital {
-          private ArrayList<Afiliado> afiliados;
-          private ArrayList<AsistenciaMedica> solicitudes;
+          private ArrayList<Afiliado> afiliados = new ArrayList<>();
           
           public GestionHospital(){
-              ArrayList<Afiliado> afiliados= new ArrayList<Afiliado>();
+              //ArrayList<Afiliado> afiliados= new ArrayList<Afiliado>();
           }
           
           public void altaAfiliado(Afiliado afiliado){
@@ -23,11 +24,11 @@ public class GestionHospital {
           
           public Afiliado buscarAfiliado(Integer dni){
               for(Afiliado i: afiliados){
-                  if(i instanceof Afiliado){
-                      Afiliado a= (Afiliado)i;
-                      if(a.getDNI()==dni){
-                          return a;
-                      }
+                 // if(i instanceof Afiliado){
+                      //Afiliado a= (Afiliado)i;
+                      if(i.getDNI()==dni){
+                          return i;
+                      //}
                   }
               }
           return null;
@@ -62,5 +63,13 @@ public class GestionHospital {
                   afiliado.setAbonoHabilitado(0);
                   //PAGADO
               }
+          }
+          
+          public void mostrarPrimerAfliado(){
+             System.out.println("nombre: "+afiliados.get(0).getNombre());
+            //for(Afiliado i: afiliados)
+              // if(i instanceof Afiliado){
+               //Afiliado a= (Afiliado)i;
+              //}
           }
 }

@@ -1,5 +1,10 @@
-package EmergenciaMedica;
+package clasesgestoras;
 
+import clasessimples.Chofer;
+import clasessimples.Doctor;
+import clasessimples.Empleado;
+import clasessimples.Enfermero;
+import clasessimples.Movil;
 import java.util.ArrayList;
 
 public class GestionEmpleados {

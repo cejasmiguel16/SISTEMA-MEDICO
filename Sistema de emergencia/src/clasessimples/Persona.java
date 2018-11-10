@@ -1,31 +1,33 @@
-package EmergenciaMedica;
+package clasessimples;
+
+import java.time.LocalDate;
 
 
 /**
  *
- * @author FRANCO
+ * @author Miguel
  */
 public class Persona {
-    private String Nombre;
+    private String nombre;
     private String apellido;
     private Integer DNI;
     private String sexo;
-    private int FechaNacimiento;
+    private LocalDate fechaNacimiento;
 
-    public Persona(String Nombre, String apellido, Integer DNI, String sexo, int FechaNacimiento) {
-        this.Nombre = Nombre;
+    public Persona(String Nombre, String apellido, Integer DNI, String sexo, LocalDate FechaNacimiento) {
+        this.nombre = Nombre;
         this.apellido = apellido;
         this.DNI = DNI;
         this.sexo = sexo;
-        this.FechaNacimiento = FechaNacimiento;
+        this.fechaNacimiento = FechaNacimiento;
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
+        this.nombre = Nombre;
     }
 
     public String getApellido() {
@@ -52,12 +54,12 @@ public class Persona {
         this.sexo = sexo;
     }
 
-    public int getFechaNacimiento() {
-        return FechaNacimiento;
+    public LocalDate getFechaNacimiento() {
+        return fechaNacimiento;
     }
 
-    public void setFechaNacimiento(int FechaNacimiento) {
-        this.FechaNacimiento = FechaNacimiento;
+    public void setFechaNacimiento(LocalDate fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
     }
  
     

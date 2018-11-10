@@ -1,10 +1,12 @@
-package EmergenciaMedica;
+package clasessimples;
+
+import java.time.LocalDate;
 
 public class Doctor extends Empleado{
     private Integer disponibilidad;
     
-    public Doctor(Integer numeroEmpleado, String Nombre, String apellido, Integer DNI, String sexo, int FechaNacimiento) {
-        super(numeroEmpleado, Nombre, apellido, DNI, sexo, FechaNacimiento);
+    public Doctor(Integer numeroEmpleado, String Nombre, String apellido, Integer DNI, String sexo, LocalDate fechaNacimiento) {
+        super(numeroEmpleado, Nombre, apellido, DNI, sexo, fechaNacimiento);
         disponibilidad = 0;
     }
 

@@ -3,29 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/GestionHospital.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/ElegirEmpleadoParaAlta.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/AltaEmpleado.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/SistemaEmergenciaMedica.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/MenuAfiliado.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/BajaAfiliado.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Afiliado.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/AltaAfiliado.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Movil.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Principal.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/AsistenciaMedica.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Empleado.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/MenuEmpleado.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/GestionEmpleados.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/PagarAbono.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Administrativo.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/ResultadoAsisMedica.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Doctor.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Enfermero.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/ElegirEmpleadoParaBaja.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Chofer.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/Abono.java</file>
-            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/EmergenciaMedica/BajaEmpleado.java</file>
+            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/interfazGrafica/ventanasafiliados/MenuAfiliados.java</file>
+            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/interfazGrafica/ventanasafiliados/FormularioAltaAfiliado.java</file>
+            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/interfazGrafica/Principal.java</file>
+            <file>file:/C:/Users/Miguel/Documents/SISTEMA-MEDICO/Sistema%20de%20emergencia/src/clasessimples/Afiliado.java</file>
         </group>
     </open-files>
 </project-private>

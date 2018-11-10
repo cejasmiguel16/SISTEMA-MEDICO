@@ -1,5 +1,5 @@
 
-package EmergenciaMedica;
+package clasessimples;
 
     public class Abono {
         Afiliado afiliado;

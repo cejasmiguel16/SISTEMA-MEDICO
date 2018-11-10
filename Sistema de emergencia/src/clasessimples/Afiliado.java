@@ -1,5 +1,6 @@
-package EmergenciaMedica;
+package clasessimples;
 
+import clasessimples.Persona;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ public class Afiliado extends Persona{
     private LocalDate fechaDePago;
     private Integer abonoHabilitado;
 
-    public Afiliado(Integer numeroAfiliado, String Nombre, String apellido, Integer DNI, String sexo, int FechaNacimiento, LocalDate fechaDePago) {
+    public Afiliado(Integer numeroAfiliado, String Nombre, String apellido, Integer DNI, String sexo, LocalDate FechaNacimiento, LocalDate fechaDePago) {
         super(Nombre, apellido, DNI, sexo, FechaNacimiento);
         this.numeroAfiliado = numeroAfiliado;
         this.fechaDePago = fechaDePago;

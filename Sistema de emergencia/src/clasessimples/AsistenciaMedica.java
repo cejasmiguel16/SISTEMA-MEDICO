@@ -1,6 +1,8 @@
 
-package EmergenciaMedica;
+package clasessimples;
 
+import clasessimples.Enfermero;
+import clasessimples.Movil;
 import java.time.LocalDate;
 
 
